@@ -33,7 +33,7 @@ DeepBoreAI is a vendor-agnostic, plug-and-play system that deploys intelligent M
 ### Clone & Launch
 
 ```bash
-git clone https://github.com/YOUR-ORG/deepboreai.git
+git clone https://github.com/ttracx/deepboreai.git
 cd deepboreai
 docker-compose up --build
 ```
