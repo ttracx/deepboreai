@@ -1,0 +1,5 @@
+FROM python:3.10
+WORKDIR /app
+COPY data_ingestion /app
+RUN pip install fastapi uvicorn pydantic python-multipart aiofiles chartjs sqlite3 aiohttp
+CMD ["python", "main.py"]
